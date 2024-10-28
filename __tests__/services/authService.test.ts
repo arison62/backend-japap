@@ -1,5 +1,6 @@
 import AuthService from "@services/authService";
 
+
 describe("AuthService", () => {
     const authService = new AuthService({secret: "1234"});
 
